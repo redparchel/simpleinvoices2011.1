@@ -275,10 +275,10 @@
 					
 						</td>
                                                 <td>
-                                                        {* onclick="add_line_item();" *}
+                                                        {* onclick="import_gcal_item();" *}
                                                         <a 
                                                                 href="#" 
-                                                                class="add_line_item"
+                                                                class="import_gcal_item"
                                                         >
                                                                 <img 
                                                                         src="./images/common/add.png"

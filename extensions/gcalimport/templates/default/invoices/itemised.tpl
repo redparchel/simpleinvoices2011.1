@@ -270,6 +270,21 @@
 				
 					</td>
 					<td>
+						{* onclick="import_gcal_item();" *}
+						<a 
+							href="#" 
+							class="import_gcal_item"
+						>
+							<img 
+								src="./images/common/add.png"
+								alt=""
+							/>
+							Import from gCal
+						</a>
+				
+					</td>
+
+					<td>
 					<a href='#' class="show-note" onclick="javascript: $('.note').show();$('.show-note').hide();">
 						<img src="./images/common/page_white_add.png" title="{$LANG.show_details}" alt="" />{$LANG.show_details}</a>
 					<a href='#' class="note" onclick="javascript: $('.note').hide();$('.show-note').show();">
